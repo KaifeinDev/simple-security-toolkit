@@ -25,7 +25,7 @@ War Room Participants: **[*Names and contact info*]**
   - Steps:
     - **[*Who, how, what addresses*]**
   - Review Transaction(s) - **[\*Person responsible, **should be different than whoever created the transaction**\*]**
-  - You do NOT want to be scrambling to figure out who can sign to take defensive actions. Use of [OpenZeppelin Defender](https://www.openzeppelin.com/defender) is highly recommended, as is having prepared defensive action scripts in advance that can be deployed as per the [Pre-Launch Security Checklist](https://github.com/nascentxyz/simple-security-toolkit/blob/main/pre-launch-security-checklist.md).
+  - You do NOT want to be scrambling to figure out who can sign to take defensive actions. Use of [OpenZeppelin Defender](https://www.openzeppelin.com/defender) is highly recommended, as is having prepared defensive action scripts in advance that can be deployed as per the [Pre-Launch Security Checklist](https://github.com/nascentxyz/simple-security-toolkit/blob/main/en/pre-launch-security-checklist.md).
 - [ ] **Review all contracts** to identify knock-on vulnerabilities. Pause those as necessary - **[*Person responsible*]**
 - [ ] **Update UI** to reflect current status - **[*Person responsible*]**
 - [ ] **Contact security partners** - **[*Person responsible*]**
