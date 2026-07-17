@@ -1,27 +1,58 @@
-# Simple Security Toolkit
-This repo is a collection of practical security-focused guides and checklists for smart contract development, assembled by the [Nascent](https://www.nascent.xyz/) team to share with our portfolio companies and others in the ecosystem who might find it useful. It is not intended to be comprehensive; it skews towards practical and opinionated recommendations that we find to be appropriate particularly for teams developing and managing early versions of a protocol.
+# 簡易資安工具箱 (Simple Security Toolkit)
+本專案是基於由 [Nascent](https://www.nascent.xyz/) 團隊彙整，進一步擴充的一系列針對智能合約開發、實用導向的資安指南與檢查清單集合。本專案並非旨在做到面面俱到；內容偏向實用且帶有主觀立場的建議，我們認為這些建議特別適合開發與管理協定早期版本的團隊。
 
-### Contents
+### 目錄
 
-1. **[Development Process](https://github.com/nascentxyz/simple-security-toolkit/blob/main/development-process.md)**
+1. **[開發流程 (Development Process)](zh-TW/development-process.zh-TW.md)**
 
-One of the most crucial factors in having a secure codebase is a solid development process: "an ounce of prevention is worth a pound of cure." This document gives an example development process that we, at Nascent, have found works well. It walks through the steps from initial design and feature requests -> specification -> evaluation -> implementation -> testing -> deployment -> monitoring.
+擁有安全程式碼庫最關鍵的因素之一，就是紮實的開發流程：「預防勝於治療」。本文件提供了一個 Nascent 團隊認為行之有效的開發流程範例。內容涵蓋從最初的設計與功能需求 -> 規格制定 -> 評估 -> 實作 -> 測試 -> 部署 -> 監控等各個步驟。
 
-2. **[Audit Readiness Checklist](https://github.com/nascentxyz/simple-security-toolkit/blob/main/audit-readiness-checklist.md)**
+2. **[審計就緒檢查清單 (Audit Readiness Checklist)](zh-TW/audit-readiness-checklist.zh-TW.md)**
 
-Audits are expensive, time consuming, and need to be scheduled months in advance. Completing this checklist helps ensure a codebase is ready for outside review and helps catch as much low-hanging fruit as possible. This will allow the auditors to focus their time and attention on identifying deeper and more critical vulnerabilities.
+審計既昂貴又耗時，且需要提前數個月排定時程。完成這份檢查清單有助於確保程式碼庫已準備好接受外部審查，並盡可能抓出容易發現的問題。這能讓審計人員將時間與精力集中在找出更深層、更關鍵的漏洞上。
 
-3. **[Pre-Launch Security Checklist](https://github.com/nascentxyz/simple-security-toolkit/blob/main/pre-launch-security-checklist.md)**
+3. **[上線前資安檢查清單 (Pre-Launch Security Checklist)](zh-TW/pre-launch-security-checklist.zh-TW.md)**
 
-Before deploying code to mainnet, teams should complete this checklist to make sure they have taken the necessary steps to enable reporting and responding to potential bugs or security incidents.
+在將程式碼部署到主網之前，團隊應完成這份檢查清單，以確保已採取必要步驟，能夠回報並應對潛在的漏洞或資安事件。
 
-4. **[Incident Response Plan Template](https://github.com/nascentxyz/simple-security-toolkit/blob/main/incident-response-plan-template.md)**
+4. **[事件應變計畫範本 (Incident Response Plan Template)](zh-TW/incident-response-plan-template.zh-TW.md)**
 
-No project ever expects to have a security incident. Having a plan documented in advance can help a team respond swiftly and calmly in the heat of the moment when adrenaline is running high.
+沒有任何專案會預期自己遭遇資安事件。事先將應變計畫記錄下來，能幫助團隊在腎上腺素飆升的緊張時刻，仍能迅速且冷靜地做出回應。
 
+5. **[組織安全成熟度自評清單 (Security Maturity Self-Assessment)](zh-TW/security-maturity-self-assessment.zh-TW.md)**
 
-### Contributing
+改編自 The Rekt Test 的 12 題是非題自評，供主管層在一次會議內快速評估組織整體的安全成熟度，答「否」的題目即為改善事項。
 
-Thanks for your interest in contributing! We are *very* opinionated as to what gets added to this repository. However, we are open to outside contributors putting forth suggestions and encourage you to do so. If you have ideas for a new document, it is likely best to open an issue before starting on a PR to gauge our support. If you have suggestions to existing documents, you can open a PR right away.
+6. **[營運安全與金鑰管理檢查清單 (Operational Security Checklist)](zh-TW/operational-security-checklist.zh-TW.md)**
 
-Feel free to fork this repo and make it your own. Share your ideas with your team and iterate. If you find things that may be useful to a broader set of teams, consider opening a PR!
+改編自 SEAL Frameworks（CC BY-SA 4.0）與 CCSS，涵蓋合約以外的攻擊面：金鑰與多簽管理、人員與裝置、帳號與基礎設施、供應鏈安全。
+
+7. **[第三方代幣整合檢查清單 (Token Integration Checklist)](zh-TW/token-integration-checklist.zh-TW.md)**
+
+協定支援任何新代幣之前的逐項檢查：特權功能盤點、非標準 ERC20 行為（手續費、彈性供給、重入掛勾）與整合實作要求。
+
+8. **[延伸資安檢查清單與資源 (Additional Security Checklists & Resources)](zh-TW/additional-security-checklists.zh-TW.md)**
+
+整理其他知名團隊（Trail of Bits、OWASP、SEAL、Cyfrin 等）維護的同類型檢查清單與安全框架，標注各自的適用階段、與本工具箱文件的搭配方式，以及哪些已改編為上述本地範本。
+
+---
+
+## 附錄：本文件連結一覽
+
+紙本閱讀時，文中帶底線的連結文字無法點擊，請對照下表取得完整位置（依文中出現順序排列）。
+
+### 本工具箱內部文件
+
+- 「開發流程」 → 同套文件：`development-process.zh-TW.md`
+- 「審計就緒檢查清單」 → 同套文件：`audit-readiness-checklist.zh-TW.md`
+- 「上線前資安檢查清單」 → 同套文件：`pre-launch-security-checklist.zh-TW.md`
+- 「事件應變計畫範本」 → 同套文件：`incident-response-plan-template.zh-TW.md`
+- 「組織安全成熟度自評清單」 → 同套文件：`security-maturity-self-assessment.zh-TW.md`
+- 「營運安全與金鑰管理檢查清單」 → 同套文件：`operational-security-checklist.zh-TW.md`
+- 「第三方代幣整合檢查清單」 → 同套文件：`token-integration-checklist.zh-TW.md`
+- 「延伸資安檢查清單與資源」 → 同套文件：`additional-security-checklists.zh-TW.md`
+
+### 外部連結
+
+- 「Nascent」 → https://www.nascent.xyz/
+
