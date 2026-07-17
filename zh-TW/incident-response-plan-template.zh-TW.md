@@ -14,7 +14,7 @@
 
 | 角色 | 職責 | 負責人 | 代理人 |
 | --- | --- | --- | --- |
-| 事件指揮官 (Incident Commander) | 宣布啟動應變、統籌決策、分派任務 | **[*姓名*]** | **[*姓名*]** |
+| 事件指揮 | 宣布啟動應變、統籌決策、分派任務 | **[*姓名*]** | **[*姓名*]** |
 | 技術分析 | 分析攻擊交易、找出漏洞 | **[*姓名*]** | **[*姓名*]** |
 | 防禦執行 | 建立並執行暫停／防禦交易 | **[*姓名*]** | **[*姓名*]** |
 | 交易複核 | 複核防禦交易（**必須與建立者不同人**） | **[*姓名*]** | **[*姓名*]** |
@@ -59,7 +59,7 @@
     - 多簽簽署者與門檻：**[*名單與人數*]**
   - 審查交易 - **[*負責人，應與建立該交易的人不同*]**
     - 緊急狀態下最容易發生「防禦交易本身出錯」或簽到釣魚交易。複核者需獨立確認：目標地址正確、calldata 符合預期、不會造成新的損害。
-  - 您絕對不會希望在事發當下才手忙腳亂地搞清楚誰有權簽署以採取防禦性行動。強烈建議使用 [OpenZeppelin Defender](https://www.openzeppelin.com/defender)，並依照[上線前資安檢查清單](https://github.com/nascentxyz/simple-security-toolkit/blob/main/zh-TW/pre-launch-security-checklist.zh-TW.md)事先準備好可部署的防禦性行動腳本。
+  - 您絕對不會希望在事發當下才手忙腳亂地搞清楚誰有權簽署以採取防禦性行動。強烈建議使用 [OpenZeppelin Defender](https://www.openzeppelin.com/defender)，並依照[上線前資安檢查清單](pre-launch-security-checklist.zh-TW.md)事先準備好可部署的防禦性行動腳本。
 - [ ] **審查所有合約**，找出可能的連帶漏洞。視需要暫停相關合約 - **[*負責人*]**
   - 逐一檢查：使用相同漏洞模式的其他合約、與受影響合約共用狀態或資金的合約、依賴受影響合約輸出（價格、餘額）的下游整合。
   - 產出一份「已檢查合約清單」，標注每個合約的狀態（安全／已暫停／觀察中）。
@@ -107,3 +107,23 @@
 | SEAL 911（緊急白帽救援） | Telegram：@seal_911_bot（<https://securityalliance.org/>） |
 
 *最後演練日期：**[*日期*]**；下次演練排程：**[*日期*]***
+
+---
+
+## 附錄：本文件連結一覽
+
+紙本閱讀時，文中帶底線的連結文字無法點擊，請對照下表取得完整位置（依文中出現順序排列）。
+
+### 本工具箱內部文件
+
+- 「上線前資安檢查清單」 → 同套文件：`pre-launch-security-checklist.zh-TW.md`
+- 「開發流程」 → 同套文件：`development-process.zh-TW.md`
+
+### 外部連結
+
+- 「Phalcon Tx Explorer」 → https://explorer.phalcon.xyz/
+- 「Foundry 交易重放追蹤/除錯工具」 → https://book.getfoundry.sh/reference/cast/cast-run.html#cast-run
+- 「Tenderly Debugger」 → https://dashboard.tenderly.co/tx/mainnet/0xf427afc17bd30a84f4b47dc2eaa176115cf28bdea1110245d3b0948ca3b6595c/debugger
+- 「OpenZeppelin Defender」 → https://www.openzeppelin.com/defender
+- 「SEAL 911」 → https://securityalliance.org/
+- 「Code4rena」 → https://code4rena.com/

@@ -246,3 +246,24 @@
 - [CryptoCurrency Security Standard（CCSS）](https://cryptoconsortium.org/)——金鑰生命週期管理的概念架構
 - [The Rekt Test](https://blog.trailofbits.com/2023/08/14/can-you-pass-the-rekt-test/)——SM-7、SM-8 對應題目的出處，見[組織安全成熟度自評清單](security-maturity-self-assessment.zh-TW.md)
 - 本工具箱相關文件：[上線前資安檢查清單](pre-launch-security-checklist.zh-TW.md)（PL-9、PL-10）、[事件應變計畫範本](incident-response-plan-template.zh-TW.md)
+
+---
+
+## 附錄：本文件連結一覽
+
+紙本閱讀時，文中帶底線的連結文字無法點擊，請對照下表取得完整位置（依文中出現順序排列）。
+
+### 本工具箱內部文件
+
+- 「事件應變計畫」 → 同套文件：`incident-response-plan-template.zh-TW.md`
+- 「組織安全成熟度自評清單」 → 同套文件：`security-maturity-self-assessment.zh-TW.md`
+- 「上線前資安檢查清單」 → 同套文件：`pre-launch-security-checklist.zh-TW.md`
+
+### 外部連結
+
+- 「Security Frameworks by SEAL」 → https://frameworks.securityalliance.org/
+- 「CC BY-SA 4.0」 → https://creativecommons.org/licenses/by-sa/4.0/
+- 「CryptoCurrency Security Standard（CCSS）」 → https://cryptoconsortium.org/
+- 「SEAL 911」 → https://securityalliance.org/
+- 「security-alliance/frameworks（GitHub）」 → https://github.com/security-alliance/frameworks
+- 「The Rekt Test」 → https://blog.trailofbits.com/2023/08/14/can-you-pass-the-rekt-test/

@@ -121,3 +121,41 @@
 | 建立事件應變能力 | 本工具箱[事件應變範本](incident-response-plan-template.zh-TW.md) ＋ SEAL 事件應變框架／SEAL 911 |
 | 向主管層報告安全成熟度 | [組織安全成熟度自評清單](security-maturity-self-assessment.zh-TW.md)（改編自 The Rekt Test） |
 | 整合第三方代幣 | [第三方代幣整合檢查清單](token-integration-checklist.zh-TW.md) |
+
+---
+
+## 附錄：本文件連結一覽
+
+紙本閱讀時，文中帶底線的連結文字無法點擊，請對照下表取得完整位置（依文中出現順序排列）。
+
+### 本工具箱內部文件
+
+- 「組織安全成熟度自評清單」 → 同套文件：`security-maturity-self-assessment.zh-TW.md`
+- 「營運安全與金鑰管理檢查清單」 → 同套文件：`operational-security-checklist.zh-TW.md`
+- 「第三方代幣整合檢查清單」 → 同套文件：`token-integration-checklist.zh-TW.md`
+- 「事件應變計畫範本」 → 同套文件：`incident-response-plan-template.zh-TW.md`
+- 「審計就緒檢查清單」 → 同套文件：`audit-readiness-checklist.zh-TW.md`
+- 「開發流程」 → 同套文件：`development-process.zh-TW.md`
+- 「上線前清單」 → 同套文件：`pre-launch-security-checklist.zh-TW.md`
+
+### 外部連結
+
+- 「Building Secure Contracts」 → https://secure-contracts.com/
+- 「Smart Contract Best Practices」 → https://github.com/Consensys/smart-contract-best-practices
+- 「Solcurity」 → https://github.com/transmissions11/solcurity
+- 「Solodit Checklist」 → https://solodit.cyfrin.io/checklist
+- 「OWASP Smart Contract Security（SCS）」 → https://scs.owasp.org/
+- 「SEAL Frameworks」 → https://frameworks.securityalliance.org/
+- 「The Rekt Test」 → https://blog.trailofbits.com/2023/08/14/can-you-pass-the-rekt-test/
+- 「OpenZeppelin Audit Readiness Guide」 → https://learn.openzeppelin.com/security-audits/readiness-guide
+- 「EEA EthTrust Security Levels」 → https://entethalliance.org/specs/ethtrust-sl/
+- 「CCSS」 → https://cryptoconsortium.org/
+- 「awesome-audits-checklists」 → https://github.com/TradMod/awesome-audits-checklists
+- 「crytic/building-secure-contracts」 → https://github.com/crytic/building-secure-contracts
+- 「token integration checklist」 → https://secure-contracts.com/development-guidelines/token_integration.html
+- 「OWASP/owasp-scs」 → https://github.com/OWASP/owasp-scs
+- 「Smart Contract Top 10」 → https://scs.owasp.org/sctop10/
+- 「SCSVS」 → https://scs.owasp.org/SCSVS/
+- 「SCS Checklist」 → https://scs.owasp.org/checklists/
+- 「security-alliance/frameworks」 → https://github.com/security-alliance/frameworks
+- 「事件應變範本」 → https://frameworks.securityalliance.org/incident-management/incident-response-template/overview/

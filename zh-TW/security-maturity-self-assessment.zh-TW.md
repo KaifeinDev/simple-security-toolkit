@@ -174,3 +174,22 @@
 - Trail of Bits Blog, [_Can you pass the Rekt Test?_](https://blog.trailofbits.com/2023/08/14/can-you-pass-the-rekt-test/)（2023）——12 題原始出處
 - [Immunefi: The Rekt Test](https://medium.com/immunefi/the-rekt-test-9834fc7467fb)——共同發布方的說明
 - 本工具箱相關文件：[審計就緒檢查清單](audit-readiness-checklist.zh-TW.md)、[上線前資安檢查清單](pre-launch-security-checklist.zh-TW.md)、[事件應變計畫範本](incident-response-plan-template.zh-TW.md)、[營運安全與金鑰管理檢查清單](operational-security-checklist.zh-TW.md)
+
+---
+
+## 附錄：本文件連結一覽
+
+紙本閱讀時，文中帶底線的連結文字無法點擊，請對照下表取得完整位置（依文中出現順序排列）。
+
+### 本工具箱內部文件
+
+- 「審計就緒清單」 → 同套文件：`audit-readiness-checklist.zh-TW.md`
+- 「事件應變計畫範本」 → 同套文件：`incident-response-plan-template.zh-TW.md`
+- 「營運安全與金鑰管理檢查清單」 → 同套文件：`operational-security-checklist.zh-TW.md`
+- 「開發流程」 → 同套文件：`development-process.zh-TW.md`
+- 「上線前清單」 → 同套文件：`pre-launch-security-checklist.zh-TW.md`
+
+### 外部連結
+
+- 「The Rekt Test」 → https://blog.trailofbits.com/2023/08/14/can-you-pass-the-rekt-test/
+- 「Immunefi: The Rekt Test」 → https://medium.com/immunefi/the-rekt-test-9834fc7467fb

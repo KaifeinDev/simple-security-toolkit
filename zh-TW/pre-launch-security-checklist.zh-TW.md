@@ -199,9 +199,31 @@
 **重要性說明**：萬一遭遇駭客攻擊，你會希望**事先**就知道誰該進作戰室、用哪個平台（Discord、Signal 等）與頻道溝通、如何啟動防禦行動。把這些寫成文件，才能在腎上腺素影響判斷力時仍有所依循。
 
 **執行步驟**：
-1. 使用[這份範本](https://github.com/nascentxyz/simple-security-toolkit/blob/main/zh-TW/incident-response-plan-template.zh-TW.md)建立計畫，填入所有「待填寫」欄位（負責人、頻道、審計方聯絡資訊等）。
+1. 使用[這份範本](incident-response-plan-template.zh-TW.md)建立計畫，填入所有「待填寫」欄位（負責人、頻道、審計方聯絡資訊等）。
 2. 確保每個步驟都有指定的負責人與代理人（backup）。
 3. 將文件存放在全團隊都能在緊急時刻取得、但不公開的位置。
 4. 上線前與團隊走一遍桌面演練（tabletop exercise）：模擬一個攻擊情境，按計畫逐步走過，記錄卡住的地方並修正計畫。
 
 **通過標準**：計畫中沒有未填寫的欄位；所有被指定的負責人都知道自己的角色；至少完成一次桌面演練。
+
+---
+
+## 附錄：本文件連結一覽
+
+紙本閱讀時，文中帶底線的連結文字無法點擊，請對照下表取得完整位置（依文中出現順序排列）。
+
+### 本工具箱內部文件
+
+- 「這份範本」 → 同套文件：`incident-response-plan-template.zh-TW.md`
+
+### 外部連結
+
+- 「驗證」 → https://etherscan.io/verifyContract
+- 「Foundry」 → https://book.getfoundry.sh/forge/deploying.html?highlight=verify#verifying
+- 「Hardhat」 → https://hardhat.org/plugins/nomiclabs-hardhat-etherscan.html
+- 「Immunefi」 → https://immunefi.com/
+- 「HackerOne」 → https://www.hackerone.com/
+- 「Check the Chain」 → https://github.com/checkthechain/checkthechain
+- 「Grafana」 → https://grafana.com/
+- 「Tenderly」 → https://tenderly.co/alerting
+- 「Defender Sentinels」 → https://www.openzeppelin.com/defender

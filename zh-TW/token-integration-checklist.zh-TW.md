@@ -179,3 +179,21 @@
 - [d-xo/weird-erc20](https://github.com/d-xo/weird-erc20)——非標準 ERC20 行為的實例合集
 - [Consensys Smart Contract Best Practices — Token 相關章節](https://github.com/Consensys/smart-contract-best-practices)
 - 本工具箱相關文件：[審計就緒檢查清單](audit-readiness-checklist.zh-TW.md)（AR-2、AR-13）、[上線前資安檢查清單](pre-launch-security-checklist.zh-TW.md)（PL-9）
+
+---
+
+## 附錄：本文件連結一覽
+
+紙本閱讀時，文中帶底線的連結文字無法點擊，請對照下表取得完整位置（依文中出現順序排列）。
+
+### 本工具箱內部文件
+
+- 「審計就緒檢查清單」 → 同套文件：`audit-readiness-checklist.zh-TW.md`
+- 「上線前資安檢查清單」 → 同套文件：`pre-launch-security-checklist.zh-TW.md`
+
+### 外部連結
+
+- 「Building Secure Contracts」 → https://secure-contracts.com/
+- 「d-xo/weird-erc20」 → https://github.com/d-xo/weird-erc20
+- 「Building Secure Contracts — Token Integration Checklist」 → https://secure-contracts.com/development-guidelines/token_integration.html
+- 「Consensys Smart Contract Best Practices — Token 相關章節」 → https://github.com/Consensys/smart-contract-best-practices

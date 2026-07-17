@@ -282,3 +282,37 @@
 - [Solcurity](https://github.com/transmissions11/solcurity)——程式碼層級的逐項檢查清單
 - [Solodit Checklist](https://solodit.cyfrin.io/checklist)——彙整自真實審計發現的互動式清單
 - [OWASP SCS Checklist](https://scs.owasp.org/checklists/)——對應 SCSVS 驗證標準的可下載清單
+
+---
+
+## 附錄：本文件連結一覽
+
+紙本閱讀時，文中帶底線的連結文字無法點擊，請對照下表取得完整位置（依文中出現順序排列）。
+
+### 本工具箱內部文件
+
+- 「開發流程文件」 → 同套文件：`development-process.zh-TW.md`
+- 「延伸資安檢查清單與資源」 → 同套文件：`additional-security-checklists.zh-TW.md`
+
+### 外部連結
+
+- 「最新」 → https://docs.soliditylang.org/en/latest/
+- 「已知 bug 清單」 → https://docs.soliditylang.org/en/latest/bugs.html
+- 「OpenZeppelin contracts」 → https://github.com/OpenZeppelin/openzeppelin-contracts/
+- 「Solmate contracts」 → https://github.com/Rari-Capital/solmate
+- 「Foundry」 → https://github.com/foundry-rs/foundry
+- 「Echidna」 → https://github.com/crytic/echidna
+- 「Hardhat」 → https://github.com/NomicFoundation/hardhat
+- 「Foundry Invariants 參考指南」 → https://book.getfoundry.sh/forge/invariant-testing?highlight=invariant#invariant-testing
+- 「Slither」 → https://github.com/crytic/slither
+- 「MythX」 → https://mythx.io/
+- 「NatSpec 文件」 → https://docs.soliditylang.org/en/develop/natspec-format.html
+- 「codespell」 → https://github.com/codespell-project/codespell
+- 「cspell」 → https://cspell.org/
+- 「函式需求-效果-互動-協定不變量（FREI-PI）模式」 → https://www.nascent.xyz/idea/youre-writing-require-statements-wrong
+- 「Certora」 → https://www.certora.com/
+- 「Runtime Verification」 → https://runtimeverification.com/
+- 「Code4rena」 → https://code4rena.com/
+- 「Solcurity」 → https://github.com/transmissions11/solcurity
+- 「Solodit Checklist」 → https://solodit.cyfrin.io/checklist
+- 「OWASP SCS Checklist」 → https://scs.owasp.org/checklists/

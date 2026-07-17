@@ -50,7 +50,7 @@
 
 ## 評估
 
-**目的**：在投入實作前，用規格來評估時程、複雜度與風險，避免「邊做邊發現坑」。
+**目的**：在投入實作前，用規格來評估時程、複雜度與風險，避免「邊做邊發現問題」。
 
 特別撥出時間（建議至少一次專門會議）逐項評估：
 
@@ -154,4 +154,37 @@
 21. **密切監控接下來幾個小時**
     - 使用您所建立的監控服務，仔細觀察是否有非預期的行為發生，並隨時準備採取行動。
     - 建議做法：部署後前幾小時安排專人盯監控儀表板；確認緊急應變腳本與簽署者處於待命狀態；若協定支援，考慮以較低的資金上限「軟啟動」，穩定後再放開。
-22. **放鬆一下，喝杯啤酒吧，這是您應得的。**
+
+
+---
+
+## 附錄：本文件連結一覽
+
+紙本閱讀時，文中帶底線的連結文字無法點擊，請對照下表取得完整位置（依文中出現順序排列）。
+
+### 本工具箱內部文件
+
+- 「審計就緒檢查清單」 → 同套文件：`audit-readiness-checklist.zh-TW.md`
+- 「上線前資安檢查清單」 → 同套文件：`pre-launch-security-checklist.zh-TW.md`
+- 「事件應變計畫」 → 同套文件：`incident-response-plan-template.zh-TW.md`
+
+### 外部連結
+
+- 「Nascent」 → https://www.nascent.xyz
+- 「函式需求-效果-互動-協定不變量 (FREI-PI) 模式」 → https://www.nascent.xyz/idea/youre-writing-require-statements-wrong
+- 「NatSpec」 → https://docs.soliditylang.org/en/develop/natspec-format.html
+- 「測試」 → https://book.getfoundry.sh/forge/tests.html
+- 「覆蓋率工具」 → https://github.com/foundry-rs/foundry/pull/1576
+- 「slither」 → https://github.com/crytic/slither
+- 「模糊測試 (fuzz tests)」 → https://book.getfoundry.sh/forge/fuzz-testing.html
+- 「Foundry」 → https://github.com/foundry-rs/foundry
+- 「Echidna」 → https://github.com/crytic/echidna
+- 「Foundry CI」 → https://github.com/foundry-rs/foundry-toolchain
+- 「Slither CI」 → https://github.com/foundry-rs/forge-template/blob/36f0bf7cbc953f071027a1c1783e7e5c7d9613ed/.github/workflows/lint.yml
+- 「forge-template」 → https://github.com/foundry-rs/forge-template
+- 「重入攻擊 (reentrancy)、檢查-效果-互動模式 (checks-effects-interactions pattern) 等」 → https://docs.soliditylang.org/en/latest/security-considerations.html#pitfalls
+- 「腳本撰寫指南」 → https://book.getfoundry.sh/tutorials/solidity-scripting
+- 「Check the Chain」 → https://github.com/checkthechain/checkthechain
+- 「Grafana」 → https://grafana.com/
+- 「Tenderly」 → https://tenderly.co/alerting
+- 「Defender Sentinels」 → https://www.openzeppelin.com/defender
