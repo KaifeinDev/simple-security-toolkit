@@ -20,6 +20,13 @@
 | [CCSS](https://cryptoconsortium.org/) | C4 | 加密資產營運安全標準 | 金鑰／營運安全 | 上線前 |
 | [awesome-audits-checklists](https://github.com/TradMod/awesome-audits-checklists) | 社群彙整 | 資源彙整清單 | 查找更多資源 | – |
 
+> **已改編為本工具箱範本**：下列資源已依授權條款改寫成與本工具箱相同格式（編號＋檢查項目＋重要性說明＋執行步驟＋通過標準）的可直接操作範本：
+> - The Rekt Test → [組織安全成熟度自評清單](security-maturity-self-assessment.zh-TW.md)
+> - SEAL Frameworks（營運安全／金鑰管理部分）＋ CCSS → [營運安全與金鑰管理檢查清單](operational-security-checklist.zh-TW.md)（CC BY-SA 4.0）
+> - Trail of Bits token integration checklist（主題參考）→ [第三方代幣整合檢查清單](token-integration-checklist.zh-TW.md)
+>
+> 與現有文件重複的部分已直接整併：SEAL 911 已併入[事件應變計畫範本](incident-response-plan-template.zh-TW.md)；Solcurity／Solodit／OWASP SCS Checklist 屬程式碼層級清單，以引用方式併入[審計就緒檢查清單](audit-readiness-checklist.zh-TW.md)結尾的「延伸：程式碼層級檢查資源」。
+
 ---
 
 ## 開發與內部審查階段
@@ -110,7 +117,7 @@
 | PR／內部程式碼審查 | Solcurity ＋ Solodit Checklist |
 | 送審前自檢 | 本工具箱[審計就緒清單](audit-readiness-checklist.zh-TW.md) ＋ OpenZeppelin Readiness Guide |
 | 與廠商約定驗收標準 | OWASP SCSVS（選定等級）＋ 本工具箱清單 |
-| 上線前把關 | 本工具箱[上線前清單](pre-launch-security-checklist.zh-TW.md) ＋ SEAL Frameworks（營運安全） |
+| 上線前把關 | 本工具箱[上線前清單](pre-launch-security-checklist.zh-TW.md) ＋ [營運安全與金鑰管理清單](operational-security-checklist.zh-TW.md) |
 | 建立事件應變能力 | 本工具箱[事件應變範本](incident-response-plan-template.zh-TW.md) ＋ SEAL 事件應變框架／SEAL 911 |
-| 向主管層報告安全成熟度 | The Rekt Test |
-| 整合第三方代幣 | Trail of Bits token integration checklist |
+| 向主管層報告安全成熟度 | [組織安全成熟度自評清單](security-maturity-self-assessment.zh-TW.md)（改編自 The Rekt Test） |
+| 整合第三方代幣 | [第三方代幣整合檢查清單](token-integration-checklist.zh-TW.md) |

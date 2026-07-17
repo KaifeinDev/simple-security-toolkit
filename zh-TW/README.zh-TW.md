@@ -19,9 +19,21 @@
 
 沒有任何專案會預期自己遭遇資安事件。事先將應變計畫記錄下來，能幫助團隊在腎上腺素飆升的緊張時刻，仍能迅速且冷靜地做出回應。
 
-5. **[延伸資安檢查清單與資源 (Additional Security Checklists & Resources)](additional-security-checklists.zh-TW.md)**
+5. **[組織安全成熟度自評清單 (Security Maturity Self-Assessment)](security-maturity-self-assessment.zh-TW.md)**
 
-整理其他知名團隊（Trail of Bits、OWASP、SEAL、Cyfrin 等）維護的同類型檢查清單與安全框架，標注各自的適用階段，以及與本工具箱四份文件的搭配方式。
+改編自 The Rekt Test 的 12 題是非題自評，供主管層在一次會議內快速評估組織整體的安全成熟度，答「否」的題目即為改善事項。
+
+6. **[營運安全與金鑰管理檢查清單 (Operational Security Checklist)](operational-security-checklist.zh-TW.md)**
+
+改編自 SEAL Frameworks（CC BY-SA 4.0）與 CCSS，涵蓋合約以外的攻擊面：金鑰與多簽管理、人員與裝置、帳號與基礎設施、供應鏈安全。
+
+7. **[第三方代幣整合檢查清單 (Token Integration Checklist)](token-integration-checklist.zh-TW.md)**
+
+協定支援任何新代幣之前的逐項檢查：特權功能盤點、非標準 ERC20 行為（手續費、彈性供給、重入掛勾）與整合實作要求。
+
+8. **[延伸資安檢查清單與資源 (Additional Security Checklists & Resources)](additional-security-checklists.zh-TW.md)**
+
+整理其他知名團隊（Trail of Bits、OWASP、SEAL、Cyfrin 等）維護的同類型檢查清單與安全框架，標注各自的適用階段、與本工具箱文件的搭配方式，以及哪些已改編為上述本地範本。
 
 
 ### 貢獻方式
