@@ -25,7 +25,7 @@
 > - SEAL Frameworks（營運安全／金鑰管理部分）＋ CCSS → [營運安全與金鑰管理檢查清單](operational-security-checklist.zh-TW.md)（CC BY-SA 4.0）
 > - Trail of Bits token integration checklist（主題參考）→ [第三方代幣整合檢查清單](token-integration-checklist.zh-TW.md)
 >
-> 與現有文件重複的部分已直接整併：SEAL 911 已併入[事件應變計畫範本](incident-response-plan-template.zh-TW.md)；Solcurity／Solodit／OWASP SCS Checklist 屬程式碼層級清單，以引用方式併入[審計就緒檢查清單](audit-readiness-checklist.zh-TW.md)結尾的「延伸：程式碼層級檢查資源」。
+> 與現有文件重複的部分已直接整併：SEAL 911 與 SEAL 應變框架的嚴重程度分級（P1–P3）、值班安排已併入[事件應變計畫範本](incident-response-plan-template.zh-TW.md)；OpenZeppelin Readiness Guide 中我們原本缺少的流程項目（架構文件、TODO 清零、送審版本凍結、審計聯絡窗口、90% 覆蓋率基準）已併入[審計就緒檢查清單](audit-readiness-checklist.zh-TW.md)（AR-3、AR-15、AR-16）；Solcurity／Solodit／OWASP SCS Checklist 屬程式碼層級清單，以引用方式併入審計就緒清單結尾的「延伸：程式碼層級檢查資源」。
 
 ---
 
